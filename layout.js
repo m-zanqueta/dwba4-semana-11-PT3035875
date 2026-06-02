@@ -30,7 +30,7 @@
 
     var header = document.createElement('header');
     header.className = 'site-header';
-    header.innerHTML = '<img class="logo" src="' + base + 'img/Logo.jpg" alt="Logo IFSP">';
+    header.innerHTML = '<img class="logo" src="' + base + 'img/logo.jpg" alt="Logo IFSP">';
 
     var main = document.createElement('main');
     main.id = 'page-content';
