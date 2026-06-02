@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar - IFSP</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <main id="page-content" style="display:flex; justify-content:center; align-items:flex-start; max-width:100%; padding:40px 20px;">
+
+        <div class="login-box">
+            <img src="../img/ifsp.png" alt="Logo IFSP" class="login-logo">
+            <h2 class="login-titulo">Faça login</h2>
+
+            <form id="form-login" action="" method="POST">
+                <input type="email" id="login-email" name="email" placeholder="Seu email" class="login-input" required>
+                <input type="password" id="login-senha" name="senha" placeholder="Senha" class="login-input" required>
+
+                <label class="login-lembrar">
+                    <input type="checkbox" name="lembrar"> Lembrar de mim
+                </label>
+
+                <a href="#" class="login-esqueci">Esqueci a senha</a>
+
+                <button type="button" class="login-btn" id="btn-login">Login</button>
+            </form>
+        </div>
+
+    </main>
+
+    <script src="../layout.js"></script>
+    <script src="../login.js"></script>
+</body>
+</html>
